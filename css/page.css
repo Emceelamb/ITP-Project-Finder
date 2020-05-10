@@ -11,35 +11,35 @@
   
   #time {
     color: #707070;
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 20px;
   }
 
   #author {
     color: #707070;
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 20px;
 
   }
 
   #keywords {
-    font-size: 18px;
+    font-size: 16px;
     float: right;
     margin-top: -4px;
     width: 30%;
   }
 
   #pitch{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: normal;
   }
 
   #projectUrl {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #videoUrl {
-    font-size: 16px;
+    font-size: 14px;
   }
 
 
@@ -54,5 +54,5 @@
   }
   
   #description{
-    font-size: 15px;
+    font-size: 14px;
   }
