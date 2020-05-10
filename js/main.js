@@ -214,7 +214,7 @@ function showProject(projectsList) {
         if (projectsList[j].keywords !== null && projectsList[j].length > 0) {
           var keywords = "";
         } else {
-          var keywords = "<b>Keywords: </b>" + projectsList[j].keywords ;
+          var keywords = "<b>Keywords: </b> "+ projectsList[j].keywords ;
           
         }
 
@@ -529,7 +529,7 @@ function showProjectCard(projectsList) {
           $("#mainImage").html("");
         }
         var pitch = replaceHtml(projectsList[j].elevator_pitch);
-        $("#pitch").html("<b>Elevator Pitch:</b>  <br />" + pitch);
+        $("#pitch").html("<b></b>  <br />" + pitch);
 
         var des = replaceHtmlDes(projectsList[j].description);
         des = replaceHtml(des);
@@ -549,7 +549,7 @@ function showCurrentProject(projectid) {
   if (project.keywords !== null && project.length > 0) {
     var keywords = "";
   } else {
-    var keywords = "<b>Keywords: </b>" + project.keywords;
+    var keywords = "<b>Keywords: </b><br />" + project.keywords;
   }
 
   if (project.preferred_name == undefined) {

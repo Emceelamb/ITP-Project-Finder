@@ -25,12 +25,13 @@
   #keywords {
     font-size: 18px;
     float: right;
-    margin-top: -5px;
+    margin-top: -4px;
     width: 30%;
   }
 
   #pitch{
     font-size: 18px;
+    font-weight: normal;
   }
 
   #projectUrl {
