@@ -24,6 +24,9 @@
 
   #keywords {
     font-size: 18px;
+    float: right;
+    margin-top: -5px;
+    width: 30%;
   }
 
   #pitch{
@@ -31,11 +34,11 @@
   }
 
   #projectUrl {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #videoUrl {
-    font-size: 18px;
+    font-size: 16px;
   }
 
 
